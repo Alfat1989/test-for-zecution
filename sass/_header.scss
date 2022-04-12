@@ -1,0 +1,81 @@
+.header {
+
+}
+
+.header__container-first {
+    display: flex;
+    
+}
+
+.header__logo {
+    width: 230px;
+    height: 51px;
+}
+
+.header__ins{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    padding: 9px 24px;
+}
+
+.header__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32px;
+    height: 32px;
+    
+    border-radius: 50%;
+}
+
+.header__icons--user {
+    background-color: #C4C4C4;
+    margin-right: 10px;
+}
+
+.header__svg {
+    width: 15px;
+    height: 15px;
+}
+
+.user-icon{
+    display: flex;
+    width: 15px;
+    height: 15px;
+
+    // background-color: #F3F2ED;
+    fill: #ffffff;
+}
+
+.out-icon {
+    background-color: #ffffff;
+    fill: red;
+}
+
+.header__user-name {
+
+}
+
+.header__icon--link {
+
+}
+
+.header__container-second {
+    display: flex;
+    height: 48px;
+    align-items: center;
+
+    background-color: #F3F2ED;
+}
+
+.header__employees {
+
+}
+
+.header__employee {
+
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container-first">
+
+            <div class="header__logo">
+                <img src="./downloads-media/logo.png">
+            </div>
+
+            <div class="header__ins">
+                <div class="header__icons header__icons--user">
+                    <svg class="header__svg user-icon">
+                        <use href="./images/symbol-defs.svg#human"></use>
+                    </svg>
+                </div>
+
+                <p class="header__user-name">Имя Фамилия</p>
+
+                <div class="header__icons header__icons--out">
+                    <a class="header__icon--link" href="">
+                        <svg class="header__svg out-icon">
+                            <use href="./images/symbol-defs.svg#out"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__container-second">
+            <a class="header__employees" href="">Сотрудники</a>
+            <p class="header__employee">Виктория беляева</p>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="employees">
+            <aside class="employees__sidebar sidebar">
+
+                <form class="sidebar__search-form">
+                    <input class="sidebar__input" type="text" placeholder="Быстрый поиск">
+                </form>
+
+                <ul class="sidebar__list">
+                    <li class="sidebar__item">
+                        <a class="sidebar__link" href="">
+                            <img src="">
+                            <p class="sdiebar__user-name">Анна Иванова</p>
+                            <p class="sdiebar__user-position user-position">Менеджер. Отдел продаж</p>
+                            <p class="sdiebar__user-active">На удаленке</p>
+                            <p class="sidebar_user-ball">12</p>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a class="sidebar__link" href="">
+                            <img src="">
+                            <p class="sdiebar__user-name">Виктория Беляева</p>
+                            <p class="sdiebar__user-position user-position">Менеджер. Отдел продаж</p>
+                            <p class="sdiebar__user-active">На удаленке</p>
+                            <p class="sidebar_user-ball">247</p>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a class="sidebar__link" href="">
+                            <img src="">
+                            <p class="sdiebar__user-name">Виктор Сурков</p>
+                            <p class="sdiebar__user-position user-position">Менеджер. Отдел продаж</p>
+                            <p class="sdiebar__user-active">На удаленке</p>
+                            <p class="sidebar_user-ball">0</p>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <div class="metadata">
+                <div class="metadata__employee">
+                    <div class="metadata__user">
+                        <div class="metadata__user-image">
+                            <svg class="metadata__user-svg">
+                                <use href="./images/symbol-defs.svg#smile"></use>
+                            </svg>
+                        </div>
+                        <p class="metadate__user-name">Виктория Беляева</p>
+                        <p class="metadata__user-position"></p>
+                    </div>
+                    <div class="metadata__breadcramps">
+                        <p class="user__active-time"></p>
+                        <p class="user__back">
+                            <a href="">к списку сотрудников</a>
+                        </p>
+                    </div>
+                    <ul class="metadata__list">
+                        <li class="metadata__item">
+                            <p class="subtitle">Уровень риска</p>
+                            <p class="description">157</p>
+                        </li>
+                        <li class="metadata__item">
+                            <p class="subtitle">Продуктивность</p>
+                            <p class="description">86%</p>
+                        </li>
+                        <li class="metadata__item">
+                            <p class="subtitle">Индекс активности</p>
+                            <p class="description">2.4%</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="anomalion">
+                    <h2 class="anomalion__subtitle"></h2>
+                    <ul class="anomalion__list">
+                        <li class="anomalion__list">
+                            <svg class="warning__svg">
+                                <use href="./images/symbol-defs.svg#warning"></use>
+                            </svg>
+                            <p class="anomalion__warning-message">
+                                Использование более одного аккаунтав соцсетях и мессенджерах
+                            </p>
+                        </li>
+                        <li class="anomalion__list">
+                            <svg class="warning__svg">
+                                <use href="./images/symbol-defs.svg#warning"></use>
+                            </svg>
+                            <p class="anomalion__warning-message">
+                                Использование более одного аккаунтав соцсетях и мессенджерах
+                            </p>
+                        </li>
+                        <li class="anomalion__list">
+                            <svg class="warning__svg">
+                                <use href="./images/symbol-defs.svg#warning"></use>
+                            </svg>
+                            <p class="anomalion__warning-message">
+                                Использование более одного аккаунтав соцсетях и мессенджерах
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+</body>
+
+</html>
