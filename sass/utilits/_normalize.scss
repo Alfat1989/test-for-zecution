@@ -96,6 +96,16 @@ p {
     padding: 0;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+   text-decoration: none;
+}
+
 /**
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.

@@ -85,6 +85,16 @@ p {
   padding: 0;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 /**
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.
@@ -338,6 +348,25 @@ summary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 30px;
   background-color: #F3F2ED;
+}
+
+.breadcrumb {
+  margin: 0;
+}
+
+.categories__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.employees {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 /*# sourceMappingURL=main.css.map */
