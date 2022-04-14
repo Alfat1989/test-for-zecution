@@ -374,6 +374,12 @@ summary {
   width: 340px;
 }
 
+@media screen and (max-width: 949px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 .sidebar__search-form {
   padding-left: 27px;
 }
@@ -440,5 +446,131 @@ summary {
   font-weight: 500;
   margin-left: auto;
   color: #A2A2A2;
+}
+
+.metadata__employee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 16px 20px;
+}
+
+.metadata__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 30%;
+}
+
+.metadata__user-image {
+  position: relative;
+  margin-right: 15px;
+}
+
+.user-img {
+  position: relative;
+  width: 58px;
+  height: 58px;
+}
+
+.metadata__user-svg {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  bottom: -100%;
+  right: 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.metadate__user-name {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.metadata__user-position {
+  font-size: 13px;
+}
+
+.metadate__date {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .metadata__breadcramps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.user__back {
+  font-size: 13px;
+  text-align: center;
+}
+
+.metadata__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .metadata__item {
+    width: calc(100%/2);
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .metadata__item {
+    width: calc(100%/3);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .metadata__item {
+    width: calc(100%/4);
+  }
+}
+
+.subtitle {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.description-span {
+  font-size: 13px;
+  color: #808080;
+}
+
+.metadate__icon {
+  width: 18px;
+  height: 18px;
+}
+
+.metadate__icon:not(:last-child) {
+  margin-right: 10px;
+  fill: #808080;
 }
 /*# sourceMappingURL=main.css.map */
